@@ -1,0 +1,1 @@
+hive -e 'set hive.cli.print.header=true; SELECT category, AVG(discount_no_null) AS average_discount FROM restaurant_detail_new r JOIN order_detail_new o ON r.id = o.restaurant_id GROUP BY category;' | sed 's/[\t]/,/g'  > discount.csv
