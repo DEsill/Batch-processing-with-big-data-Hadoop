@@ -3,6 +3,8 @@ This is the latest and most complicated project I ever do.
 
 ![2](https://user-images.githubusercontent.com/105791967/227419142-4243c20f-31bf-493f-9cca-d81bf60dee15.png)
 
+This project show data pipeline design that suit for Big data analysis company. Most of the tools I have used in this project are open-source(So it's free) and it's the tools to solve Big data problems.
+
 Prerequisite
 
 - To run this project you have to provide at least 8 GB of memory to Docker in my case I created .wslconfig in my user directory and set memory=8GB and restart the machine
